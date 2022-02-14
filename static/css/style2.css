@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-color: gray;
+    width: 500px;
+    margin-top: 50px;
+}
+
+table{
+    display: flex;
+}
+
+th{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+#header{
+    text-decoration: underline;
+}

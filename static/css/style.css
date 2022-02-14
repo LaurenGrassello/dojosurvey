@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-color: gray;
+    width: 500px;
+    margin-top: 50px;
+}
+
+form, p, textarea, input, label {
+    margin: 10px;
+}
+
+
+.name{
+    margin-left: 150px;
+}
+
+select{
+    margin-left: 170px;
+}
+
+.btn{
+    background-color: cornflowerblue;
+    box-shadow: 5px black;
+    width: 75px;
+    margin: 10px;
+}
